@@ -57,8 +57,8 @@ Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-Program:
-*/
+# Program:
+```
 module logicgates(a,b,y1,y2,y3,y4,y5,y6,y7);
 input a,b;
 output y1,y2,y3,y4,y5,y6,y7;
@@ -70,17 +70,17 @@ nand (y5,a,b);
 nor(y6,a,b);
 xnor (y7,a,b);
 endmodule
-*/
+```
 RTL realization:
-*/
+
 ![285830260-f7726398-f2fd-47c7-9791-e79e0afa82f6](https://github.com/Kavi45-msk/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147457752/18226f56-ce70-4c22-9713-67371a3e37a2)
 
 Truth table:
-*/
+
 ![285830630-96f13d5f-ec9c-48d5-ba7a-f5da41cbf160](https://github.com/Kavi45-msk/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147457752/72cf7140-71d0-4069-b22d-01acd62bc73a)
 
 Timing Diagram:
-*/
+
 ![285832412-0422062a-f7db-44ec-b9e4-94a5bb53755b](https://github.com/Kavi45-msk/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/147457752/09f69543-0665-47e7-9882-4462f081b094)
 
 
