@@ -1,4 +1,4 @@
-# NAME: kAVI M S
+# NAME: KAVI M S
 # REFERENCE NUMBER: 23013458
 # EXPERIMENT 1: Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
  AIM:
